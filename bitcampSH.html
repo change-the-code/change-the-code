@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Class 1 ~ HTML/CSS ~ Girl Develop IT</title>
+    <title>Beginning HTML/CSS ~ Girl Develop IT</title>
 
     <meta name="description" content="This is the official Girl Develop It Core HTML/CSS curriculum. It was developed through the contributions of Pamela Fox, Alexis Goldstein, Erin M. Kidwell, Izzy Johnston, and Jen Myers.
 
@@ -27,22 +27,22 @@
     <link rel="stylesheet" href="reveal/css/print/pdf.css" type="text/css" media="print">
 
     <!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <div class="container">
+<div class="container">
     <div class="reveal">
 
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
 
-
             <!-- Opening slide -->
             <section>
-                <img style="display:inline; width: 30%; border-color: white;" src="images/BitCampLogo.jpg"/>
-                <h3>Open Systems Technologies Bitcamp</h3>
+                <!--<img class="logo" src="images/SoftwareGR-logo.png">-->
+                <img style="width: 30%; border-color: white;" src="images/BitCampLogo.jpg"/>
+                <h3>Spectrum Health BitCamp</h3>
                 <img style="display:inline; width: 20%; margin-left: 40px; border-color: white;" src="images/ostlogo.png"/>
                 <img style="display:inline; width: 30%; margin-bottom: 40px; border-color: white;" src="images/spectrumLogo.jpg"/>
             </section>
@@ -107,31 +107,31 @@
           <h3>Clients and servers</h3>
           <p>How your computer accesses websites</p>
           <img src = "images/client-server.png"/>
-        </section> -->
+            </section> -->
 
-          <!--  &lt;!&ndash; Nitty gritty 2 - Tools &ndash;&gt;
-            <section>
-                <h3>Tools</h3>
-                <ul>
-                    <li>
-                        <div class="yellow">Browser</div>
-                        <div>Chrome</div>
-                        <div>Firefox</div>
-                    </li>
-                    <li>
-                        <div class="yellow">Development Toolkit</div>
-                        <div>Chrome - Inspector</div>
-                        <div>Firefox - Firebug</div>
-                    </li>
-                    <li>
-                        <div class="yellow">Text Editor</div>
-                        <div>TextWrangler - Mac</div>
-                        <div>Notepad ++ - Windows</div>
-                        <div>Sublime Text - Linux, Mac or Windows</div>
-                        <div>gedit - Linux</div>
-                    </li>
-                </ul>
-            </section>-->
+            <!--  &lt;!&ndash; Nitty gritty 2 - Tools &ndash;&gt;
+              <section>
+                  <h3>Tools</h3>
+                  <ul>
+                      <li>
+                          <div class="yellow">Browser</div>
+                          <div>Chrome</div>
+                          <div>Firefox</div>
+                      </li>
+                      <li>
+                          <div class="yellow">Development Toolkit</div>
+                          <div>Chrome - Inspector</div>
+                          <div>Firefox - Firebug</div>
+                      </li>
+                      <li>
+                          <div class="yellow">Text Editor</div>
+                          <div>TextWrangler - Mac</div>
+                          <div>Notepad ++ - Windows</div>
+                          <div>Sublime Text - Linux, Mac or Windows</div>
+                          <div>gedit - Linux</div>
+                      </li>
+                  </ul>
+              </section>-->
             <!-- Commenting out sublime text intro so teachers can choose whether or not to use sublime text in class-->
             <!-- intro to sublime text 2 -->
 
@@ -144,7 +144,7 @@
             </li>
             <li>
               <p>Turn off Auto Correct &amp; Tab Completion<br/></p>
-              <p>Modify your the preferences / settings by adding these lines to the code:</p>              
+              <p>Modify your the preferences / settings by adding these lines to the code:</p>
               <ul >
                 <li style="margin: 0 0 0 40px;">"tab_completion": false</li>
                 <li style="margin: 0 0 0 40px;">"auto_complete": false,</li>
@@ -180,10 +180,10 @@
                 <p>Next we'll get started on our site!</p>
             </section>
 
-           <!-- <section>
-                <h3>Solution</h3>
-                <img src="images/folderstructure2.jpg" />
-            </section>-->
+            <!-- <section>
+                 <h3>Solution</h3>
+                 <img src="images/folderstructure2.jpg" />
+             </section>-->
 
             <!-- Example of site we'll be making-->
             <section>
@@ -191,7 +191,7 @@
                 <div class="left left-align" style="width: 45%;">
                     <p>Today we will be learning how to code a site from scratch using paragraphs, headings, links, images, and lists.</p>
                 </div>
-                <div class="right" style="width: 45%;">
+                <div class="right" style="width: 30%;">
                     <img src="images/session1site.png" />
                 </div>
             </section>
@@ -215,8 +215,8 @@
                     <li class="fragment">
                         <div style="font-size: 80%">Putting your content into an HTML tag to make it look like a paragraph is Structure</div>
                         <pre><code class ="html">
-                &lt;p>A paragraph is your content&lt;/p>
-              </code></pre>
+                            &lt;p>A paragraph is your content&lt;/p>
+                        </code></pre>
                     </li>
                 </ul>
             </section>
@@ -237,17 +237,17 @@
                         <ul>
                             <li>Marks the beginning &amp; end of an element</li>
                             <li>Opening tag and Closing Tag
-               <li>Tags contain characters that indicate the tags purpose</li>
-                                <pre><code class ="html">&lt;tagname>Stuff in the middle&lt;/tagname></code></pre>
-                            </li>
-                            <li>
-                                <pre><code class ="html">&lt;p> This is a sample paragraph.&lt;/p></code></pre>
-                            </li>
-                        </ul>
+                            <li>Tags contain characters that indicate the tags purpose</li>
+                            <pre><code class ="html">&lt;tagname>Stuff in the middle&lt;/tagname></code></pre>
+                    </li>
+                    <li>
+                        <pre><code class ="html">&lt;p> This is a sample paragraph.&lt;/p></code></pre>
+                    </li>
+                </ul>
             </section>
             <!--anatomy of a tag -->
             <section>
-                <img src="images/tagbreakdown.png" alt="Tag breakdown" style="border: none; box-shadow: none;" />
+                <img style="width: 70%" src="images/tagbreakdown.png" alt="Tag breakdown" style="border: none; box-shadow: none;" />
             </section>
             <section>
                 <h3>Anatomy of an HTML element</h3>
@@ -255,8 +255,8 @@
                     <li class="fragment">
                         <strong class="blue">Container Element</strong>
                         <ul>
-                            <li>An element that can contain other elements or 
-               content</li>
+                            <li>An element that can contain other elements or
+                                content</li>
                             <li>A paragraph (&lt;p>) contains text</li>
                         </ul>
                     </li>
@@ -266,10 +266,12 @@
                             <li>An element that cannot contain anything else</li>
                             <li>
                                 <pre><code class = "html">&lt;br/>
-&lt;img/> 
-</code></pre>
+                                    &lt;img/>
+                                </code></pre>
                             </li>
                         </ul>
+                    </li>
+                </ul>
             </section>
 
             <section>
@@ -290,9 +292,9 @@
                             <li>Values must be contained inside quotation marks.</li>
                             <li>
                                 <pre><code class ="html">&lt;div id="copyright">&copy; GDI 2013&lt;/div>
-&lt;img src="my_picture.jpg" /> 
-&lt;a href="http://girldevelopit.com">GDI&lt;/a>
-</code></pre>
+                                    &lt;img src="my_picture.jpg" />
+                                    &lt;a href="http://girldevelopit.com">GDI&lt;/a>
+                                </code></pre>
                             </li>
                     </li>
                 </ul>
@@ -308,8 +310,8 @@
           www.w3.org/TR/html4/loose.dtd">
         </code></pre>-->
                 <pre><code class = "html">
-          &lt;!DOCTYPE html>
-        </code></pre>
+                    &lt;!DOCTYPE html>
+                </code></pre>
                 <p><small>* The doctype is case-insensitive.
                     <br />
                     DOCtype, doctype, DocType and DoCtYpe are all valid.</small></p>
@@ -319,14 +321,14 @@
                 <h3>HTML Tag</h3>
                 <p>
                     After &lt;doctype>, the page content must be
-          contained between &lt;html> tags.
+                    contained between &lt;html> tags.
                 </p>
                 <pre><code class = "html">
-            &lt;!DOCTYPE html>
-            &lt;html>
+                    &lt;!DOCTYPE html>
+                    &lt;html>
 
-            &lt;/html>
-          </code></pre>
+                    &lt;/html>
+                </code></pre>
             </section>
 
             <section>
@@ -372,16 +374,16 @@
             <section>
                 <h3>Head and Body Tags</h3>
                 <pre><code class = "html">
-            &lt;!DOCTYPE html>
-            &lt;html>
-               &lt;head>
-                &lt;title>Title of the page &lt;/title>
-               &lt;/head>
-               &lt;body>
-                The page content here.
-               &lt;/body>
-            &lt;/html>
-          </code></pre>
+                    &lt;!DOCTYPE html>
+                    &lt;html>
+                    &lt;head>
+                    &lt;title>Title of the page &lt;/title>
+                    &lt;/head>
+                    &lt;body>
+                    The page content here.
+                    &lt;/body>
+                    &lt;/html>
+                </code></pre>
             </section>
 
             <!-- Develop it -->
@@ -395,7 +397,7 @@
                 <h3>Nesting</h3>
                 <p>All elements "nest" inside one another</p>
                 <p><small>Nesting is what happens when you put other containing tags inside other containing tags. For example, you would put the &lt;p> inside of the &lt;body> tags. The &lt;p> is now nested inside the &lt;body></small></p>
-                <img src="images/owls.jpg" />
+                <img style="width: 30%" src="images/owls.jpg" />
 
                 <p>Whichever element OPENS first CLOSES last</p>
             </section>
@@ -405,18 +407,18 @@
                 <h3>Nesting: Example</h3>
                 <p>Elements are 'nested' inside the &lt;body&gt; tag.</p>
                 <pre><code>
-        	&lt;body&gt;
-        	   &lt;p&gt;A paragraph inside the body tag&lt;/p&gt;
-        	&lt;/body&gt;
-        	</code></pre>
+                    &lt;body&gt;
+                    &lt;p&gt;A paragraph inside the body tag&lt;/p&gt;
+                    &lt;/body&gt;
+                </code></pre>
                 <p>Paragraphs 'nested' inside list items.</p>
                 <pre><code>
-        	&lt;ul&gt;
-        	   &lt;li&gt;
-        	      &lt;p&gt;A paragraph inside a list item&lt;/p&gt;
-        	   &lt;/li&gt;
-        	&lt;/ul&gt;
-        	</code></pre>
+                    &lt;ul&gt;
+                    &lt;li&gt;
+                    &lt;p&gt;A paragraph inside a list item&lt;/p&gt;
+                    &lt;/li&gt;
+                    &lt;/ul&gt;
+                </code></pre>
             </section>
             <!-- Elements -->
             <!-- Paragraphs-->
@@ -425,20 +427,20 @@
                 <div>
                     <div class="left" style="width: 50%">
                         <pre><code>
-  &lt;p>Paragraph 1&lt;/p>
-  &lt;p>Paragraph 2&lt;/p>
-  &lt;p>Paragraph 3&lt;/p>
-</code></pre>
+                            &lt;p>Paragraph 1&lt;/p>
+                            &lt;p>Paragraph 2&lt;/p>
+                            &lt;p>Paragraph 3&lt;/p>
+                        </code></pre>
                         <pre><code>
-  &lt;p>Paragraph 1&lt;/p> &lt;p>Paragraph 2&lt;/p>  &lt;p>Paragraph 3&lt;/p>
-</code></pre>
+                            &lt;p>Paragraph 1&lt;/p> &lt;p>Paragraph 2&lt;/p>  &lt;p>Paragraph 3&lt;/p>
+                        </code></pre>
                         <pre><code>
-  &lt;p>Paragraph 1&lt;/p> 
-  
-  
-  &lt;p>Paragraph 2&lt;/p>  
-  &lt;p>Paragraph 3&lt;/p>
-</code></pre>
+                            &lt;p>Paragraph 1&lt;/p>
+
+
+                            &lt;p>Paragraph 2&lt;/p>
+                            &lt;p>Paragraph 3&lt;/p>
+                        </code></pre>
                     </div>
                     <div>
                         <p>Paragraph 1</p>
@@ -464,13 +466,13 @@
                 <div>
                     <div class="left" style="width: 50%">
                         <pre><code>
-  &lt;h1>Heading 1&lt;/h1>
-  &lt;h2>Heading 2&lt;/h2>
-  &lt;h3>Heading 3&lt;/h3>
-  &lt;h4>Heading 4&lt;/h4>
-  &lt;h5>Heading 5&lt;/h5>
-  &lt;h6>Heading 6&lt;/h6>
-</code></pre>
+                            &lt;h1>Heading 1&lt;/h1>
+                            &lt;h2>Heading 2&lt;/h2>
+                            &lt;h3>Heading 3&lt;/h3>
+                            &lt;h4>Heading 4&lt;/h4>
+                            &lt;h5>Heading 5&lt;/h5>
+                            &lt;h6>Heading 6&lt;/h6>
+                        </code></pre>
                     </div>
                     <div class="left" style="width: 50%">
                         <h1 style="font-size: 120%">Heading 1</h1>
@@ -488,7 +490,7 @@
             <!--heading examples-->
             <section>
                 <h3>Example: Headings</h3>
-                <img src="images/example-headings.png" alt="Example of headings" />
+                <img style="width: 70%;" src="images/example-headings.png" alt="Example of headings" />
             </section>
             <!-- Em and Strong-->
             <section>
@@ -496,10 +498,10 @@
                 <div>
                     <div class="left" style="width: 50%">
                         <pre><code>
-&lt;p>
-  Here is a paragraph with &lt;em>Emphasized&lt;/em> text and &lt;strong>Important&lt;/strong> text.
-&lt;/p>
-</code></pre>
+                            &lt;p>
+                            Here is a paragraph with &lt;em>Emphasized&lt;/em> text and &lt;strong>Important&lt;/strong> text.
+                            &lt;/p>
+                        </code></pre>
                     </div>
                     <div class="left left-align" style="width: 50%">
                         <p>
@@ -531,8 +533,8 @@
                     <li>Title attribute: "Girl Develop It"</li>
                 </ul>
                 <pre><code>
-&lt;a href="http://www.girldevelopit.com" title="Girl Develop It Homepage">GDI&lt;/a>
-</code></pre>
+                    &lt;a href="http://www.girldevelopit.com" title="Girl Develop It Homepage">GDI&lt;/a>
+                </code></pre>
                 <p><a href="http://www.girldevelopit.com" title="Girl Develop It Homepage">GDI</a></p>
                 <p>The &lt;a&gt; tag surrounds text or images to turn them into links</p>
             </section>
@@ -542,13 +544,13 @@
                 <h3>Link Attributes</h3>
                 <p>Links can have attributes that tell the link to do different actions like open in a new tab, or launch your e-mail program.</p>
                 <pre><code>
-&lt;a href="home.html" target="_blank">Link Text&lt;/a>
-        	</code></pre>
+                    &lt;a href="home.html" target="_blank">Link Text&lt;/a>
+                </code></pre>
                 <p><small>Link opens in a new window/tab with <strong>target="_blank"</strong></small></p>
                 <!-- Change email to fit your chapter's needs-->
                 <pre><code>
-&lt;a href="mailto:info@girldevelopit.com">E-mail us!&lt;/a>
-        	</code></pre>
+                    &lt;a href="mailto:info@girldevelopit.com">E-mail us!&lt;/a>
+                </code></pre>
                 <p><small>Link opens mail program by inserting <strong>mailto:</strong> directly before the email address.</small></p>
 
             </section>
@@ -560,10 +562,10 @@
                         <strong class="blue">Relative</strong>
                         <ul>
                             <li>Relative paths change depending upon the page the link is on.
-        					<ul>
-                                <li><small>Links within the same directory need no path information. <code class="blue">"filename.jpg"</code></small></li>
-                                <li><small>Subdirectories are listed without preceding slashes. <code class="blue">"images/filename.jpg"</code></small></li>
-                            </ul>
+                                <ul>
+                                    <li><small>Links within the same directory need no path information. <code class="blue">"filename.jpg"</code></small></li>
+                                    <li><small>Subdirectories are listed without preceding slashes. <code class="blue">"images/filename.jpg"</code></small></li>
+                                </ul>
                             </li>
                         </ul>
                     </li>
@@ -574,8 +576,8 @@
                     </li>
                     <li>Typically used when pointing to a link that is not within your own domain.</li>
                 </ul>
-                </li>	
-        	</ul>
+                </li>
+                </ul>
             </section>
             <!-- Lets develop it-->
             <section class="hide-pdf">
@@ -594,9 +596,9 @@
                     <li>Alt attribute: "Horse"</li>
                 </ul>
                 <pre><code>
-&lt;img src ="images/clydesdale.jpg" alt = "Horse"/>
-</code></pre>
-                <img src="images/clydesdale.jpg" alt="Horse" />
+                    &lt;img src ="images/clydesdale.jpg" alt = "Horse"/>
+                </code></pre>
+                <img style="width: 30%;" src="images/clydesdale.jpg" alt="Horse" />
                 <p><small>* Notice: This tag is our first example of a stand-alone or "self-closing" element.</small></p>
 
             </section>
@@ -606,14 +608,14 @@
                 <div>
                     <div class="left" style="width: 50%">
                         <pre><code>
-&lt;p>
-You're a monster, Mr. Grinch. &lt;br/>
-Your heart's an empty hole. &lt;br/>
-Your brain is full of spiders.  &lt;br/>
-You've got garlic in your soul, Mr Grinch. &lt;br/>
-I wouldn't touch you with a &lt;br/>
-Thirty-nine and a half foot pole.
-&lt;/p>
+                            &lt;p>
+                            You're a monster, Mr. Grinch. &lt;br/>
+                            Your heart's an empty hole. &lt;br/>
+                            Your brain is full of spiders.  &lt;br/>
+                            You've got garlic in your soul, Mr Grinch. &lt;br/>
+                            I wouldn't touch you with a &lt;br/>
+                            Thirty-nine and a half foot pole.
+                            &lt;/p>
                         </code></pre>
                     </div>
                     <div class="left left-align" style="width: 50%; font-size:80%">
@@ -650,33 +652,33 @@ Thirty-nine and a half foot pole.
                 <div>
                     <div class="left" style="width: 50%">
                         <pre><code>
-  &lt;ul>
-    &lt;li>List Item&lt;/li>
-    &lt;li>AnotherList Item&lt;/li>
-  &lt;/ul>
-</code></pre>
+                            &lt;ul>
+                            &lt;li>List Item&lt;/li>
+                            &lt;li>AnotherList Item&lt;/li>
+                            &lt;/ul>
+                        </code></pre>
                         <pre><code>
-  &lt;ol>
-    &lt;li>List Item&lt;/li>
-    &lt;li>AnotherList Item&lt;/li>
-  &lt;/ol>
-</code></pre>
+                            &lt;ol>
+                            &lt;li>List Item&lt;/li>
+                            &lt;li>AnotherList Item&lt;/li>
+                            &lt;/ol>
+                        </code></pre>
                     </div>
                     <div class="left" style="width: 50%">
                         <p>
                             Unordered list (bullets)
-            <ul>
-                <li>List Item</li>
-                <li>AnotherList Item</li>
-            </ul>
-                            <br />
-                            <br />
-                            <p>
-                                Ordered list (sequence)
-            <ol>
-                <li>List Item</li>
-                <li>AnotherList Item</li>
-            </ol>
+                        <ul>
+                            <li>List Item</li>
+                            <li>AnotherList Item</li>
+                        </ul>
+                        <br />
+                        <br />
+                        <p>
+                            Ordered list (sequence)
+                        <ol>
+                            <li>List Item</li>
+                            <li>AnotherList Item</li>
+                        </ol>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -686,7 +688,7 @@ Thirty-nine and a half foot pole.
             <section>
                 <h3>Lists: Examples</h3>
                 <p>Lists can be used to organize any list of items.</p>
-                <img src="images/example-lists.png" alt="Examples of lists" />
+                <img style="width: 75%" src="images/example-lists.png" alt="Examples of lists" />
             </section>
 
             <!-- Develop it!-->
@@ -700,21 +702,21 @@ Thirty-nine and a half foot pole.
                 <h3>Comments</h3>
                 <p>You can add comments to your code that will not be seen by the browser, but only visible when viewing the code.</p>
                 <pre><code>
-&lt;!-- Comment goes here -->
-        	</code></pre>
+                    &lt;!-- Comment goes here -->
+                </code></pre>
                 <p><small>Comments can be used to organize your code into sections so you (or someone else) can easily understand your code. It can also be used to 'comment out' large chunks of code to hide it from the browser.</small></p>
                 <pre><code>
-&lt;!-- Beginning of header -->
-   &lt;div id="header">Header Content &lt;/div>
-&lt;!-- End of header -->
+                    &lt;!-- Beginning of header -->
+                    &lt;div id="header">Header Content &lt;/div>
+                    &lt;!-- End of header -->
 
-&lt;!--   
-  &lt;ol>
-    &lt;li>List Item&lt;/li>
-    &lt;li>Another List Item&lt;/li>
-  &lt;/ol> 
---> 
-        	</code></pre>
+                    &lt;!--
+                    &lt;ol>
+                    &lt;li>List Item&lt;/li>
+                    &lt;li>Another List Item&lt;/li>
+                    &lt;/ol>
+                    -->
+                </code></pre>
             </section>
 
             <section>
@@ -725,17 +727,17 @@ Thirty-nine and a half foot pole.
                 <div>
                     <div class="left" style="width: 50%">
                         <pre><code>
-&lt;table>
-  &lt;tr> 
-    &lt;th>Head&lt;/th>
-    &lt;th>Head&lt;/th>
-  &lt;/tr>
-  &lt;tr> 
-    &lt;td>Data&lt;/td>
-    &lt;td>Data&lt;/td>
-  &lt;/tr>
-&lt;/table>
-</code></pre>
+                            &lt;table>
+                            &lt;tr>
+                            &lt;th>Head&lt;/th>
+                            &lt;th>Head&lt;/th>
+                            &lt;/tr>
+                            &lt;tr>
+                            &lt;td>Data&lt;/td>
+                            &lt;td>Data&lt;/td>
+                            &lt;/tr>
+                            &lt;/table>
+                        </code></pre>
                     </div>
                     <div class="left left-align" style="width: 50%">
                         <table style="border: 1px solid">
@@ -757,7 +759,7 @@ Thirty-nine and a half foot pole.
             <section>
                 <h3>Tables: Examples</h3>
                 <p>Tables can be styled with CSS to add zebra striping or to highlight important rows/columns.</p>
-                <img src="images/example-tables.png" alt="Example of tables" />
+                <img style="width: 70%" src="images/example-tables.png" alt="Example of tables" />
             </section>
 
 
@@ -775,7 +777,7 @@ Thirty-nine and a half foot pole.
                     </ul>
                 </div>
                 <div class="right" style="width: 50%;">
-                    <img src="images/example-characters.png" alt="Example of Characters" />
+                    <img style="width: 65%" src="images/example-characters.png" alt="Example of Characters" />
                 </div>
 
             </section>
@@ -784,7 +786,7 @@ Thirty-nine and a half foot pole.
                 <h2>Questions?</h2>
                 <div style="font-size: 1200%; height: 100%; margin-top: 40%" class="blue">
                     ?
-            <div class="clear"></div>
+                    <div class="clear"></div>
                 </div>
             </section>
             <!-- Role of HTML v. CSS-->
@@ -813,7 +815,7 @@ Thirty-nine and a half foot pole.
 
             <section>
                 <h3>CSS: What does it look like?</h3>
-                <img src="images/homepage-css.png">
+                <img style="width: 45%" src="images/homepage-css.png">
             </section>
 
             <!-- The CSS Rule-->
@@ -824,10 +826,10 @@ Thirty-nine and a half foot pole.
             <section>
                 <h3>The CSS Rule</h3>
                 <pre><code class = "html">
-selector {
-  property: value;
-}
-</code></pre>
+                    selector {
+                    property: value;
+                    }
+                </code></pre>
                 <div class="left-align">
                     <p>A block of CSS code is a rule.</p>
                     <p>The rule starts with a selector.</p>
@@ -846,28 +848,28 @@ selector {
                 </div>
 
                 <pre><code class = "html">
-selector {
-  property: value;
-  property: value;
-  property: value;
-}
-</code></pre>
+                    selector {
+                    property: value;
+                    property: value;
+                    property: value;
+                    }
+                </code></pre>
             </section>
 
             <!-- Selectors elements-->
             <section>
                 <h3>Selector: Element</h3>
                 <pre><code class = "html">
-p {
-  property: value;
-}
-</code></pre>
+                    p {
+                    property: value;
+                    }
+                </code></pre>
                 <p>Selects all paragraph elements.</p>
                 <pre><code class = "html">
-img {
-  property: value;
-}
-</code></pre>
+                    img {
+                    property: value;
+                    }
+                </code></pre>
                 <p>Selects all image elements.</p>
             </section>
 
@@ -875,30 +877,30 @@ img {
             <section>
                 <h3>Selector: ID</h3>
                 <pre><code class = "html">
-#footer {
-  property: value;
-}
-</code></pre>
+                    #footer {
+                    property: value;
+                    }
+                </code></pre>
                 <p>Selects all elements with an id of "footer".</p>
 
                 <pre><code class = "html">
-&lt;p id="footer">Copyright 2011&lt;/p>
-</code></pre>
+                    &lt;p id="footer">Copyright 2011&lt;/p>
+                </code></pre>
             </section>
 
             <!-- Selectors Class-->
             <section>
                 <h3>Selector: Class</h3>
                 <pre><code class = "html">
-.warning {
-  color: red;
-}
-</code></pre>
+                    .warning {
+                    color: red;
+                    }
+                </code></pre>
                 <p>Selects all elements with a class of "warning".</p>
 
                 <pre><code class = "html">
-&lt;p class="warning">Run away!&lt;/p>
-</code></pre>
+                    &lt;p class="warning">Run away!&lt;/p>
+                </code></pre>
             </section>
 
             <!-- ID vs Class-->
@@ -906,11 +908,11 @@ img {
                 <h3>IDs vs. Classes</h3>
                 <div class="left-align">
                     <span class="yellow">ID</span> -- Should only apply to one element on a webpage. I.E. A webpage only has one footer.
-          <p>The "#" is how you tell CSS "this is an id."</p>
+                    <p>The "#" is how you tell CSS "this is an id."</p>
                 </div>
                 <div class="left-align">
                     <span class="yellow">Class</span> -- Lots of elements can have the same class. I.E. There can be many warning on one webpage.
-          <p>The "." is how you tell CSS "this is a class name."</p>
+                    <p>The "." is how you tell CSS "this is a class name."</p>
                 </div>
             </section>
 
@@ -918,14 +920,14 @@ img {
             <section>
                 <h3>Selector: Position</h3>
                 <pre><code class = "html">
-p em {
-  color: yellow;
-}
-</code></pre>
+                    p em {
+                    color: yellow;
+                    }
+                </code></pre>
                 <p>Selects all em elements that are within a paragraph</p>
                 <pre><code class = "html">
-&lt;p>This is &lt;em>important.&lt;/em>&lt;/p>
-</code></pre>
+                    &lt;p>This is &lt;em>important.&lt;/em>&lt;/p>
+                </code></pre>
             </section>
 
             <!-- Multiple values -->
@@ -933,12 +935,12 @@ p em {
                 <h3>Property Values</h3>
                 <p>Each property can have one or more comma separated values.</p>
                 <pre><code class = "html">
-p{
-  color: white;
-  background-color: red;
-  font-family: Arial, sans-serif;
-}
-</code></pre>
+                    p{
+                    color: white;
+                    background-color: red;
+                    font-family: Arial, sans-serif;
+                    }
+                </code></pre>
             </section>
 
             <!-- Color-->
@@ -946,12 +948,12 @@ p{
                 <h3>Property: Color</h3>
                 <p>The color property changes the color of the text.</p>
                 <pre><code class = "html">
-p {
-  color: red;
-  color: #ff0000;
-  color: rgb(255, 0, 0);
-}
-</code></pre>
+                    p {
+                    color: red;
+                    color: #ff0000;
+                    color: rgb(255, 0, 0);
+                    }
+                </code></pre>
                 <p>Color name</p>
                 <p>Hexadecimal value</p>
                 <p>RGB value</p>
@@ -964,12 +966,12 @@ p {
                 <h3>Property: Background-color</h3>
                 <p>The background-color property changes the color of the background.</p>
                 <pre><code class = "html">
-p {
-  background-color: black;
-  background-color: #000000;
-  background-color: rgb(0,0,0);
-}
-</code></pre>
+                    p {
+                    background-color: black;
+                    background-color: #000000;
+                    background-color: rgb(0,0,0);
+                    }
+                </code></pre>
             </section>
 
             <!-- Font family-->
@@ -977,12 +979,12 @@ p {
                 <h3>Property: Font-family</h3>
                 <p>The font-family property deﬁnes which font is used.</p>
                 <pre><code class = "html">
-p {
-  font-family: "Times New Roman";
-  font-family: serif;
-  font-family: "Arial", sans-serif;
-}
-</code></pre>
+                    p {
+                    font-family: "Times New Roman";
+                    font-family: serif;
+                    font-family: "Arial", sans-serif;
+                    }
+                </code></pre>
                 <p>Specific font name</p>
                 <p>Generic name</p>
                 <p>Comma-separated list</p>
@@ -993,12 +995,12 @@ p {
                 <h3>Property: Font-size</h3>
                 <p>The font-size property speciﬁes the size of the font.</p>
                 <pre><code class = "html">
-p {
-  font-size: 12px;
-  font-size: 1.5em;
-  font-size: 100%;
-}
-</code></pre>
+                    p {
+                    font-size: 12px;
+                    font-size: 1.5em;
+                    font-size: 100%;
+                    }
+                </code></pre>
                 <p>Pixels</p>
                 <p>"em"</p>
                 <p>Percentage</p>
@@ -1008,19 +1010,19 @@ p {
             <section>
                 <h3>Property: Fonts (shorthand)</h3>
                 <pre><code class = "html">
-p {
-  font-style: italic;
-  font-weight: bold;
-  font-size: 10px;
-  font-family: sans-serif;
-}
-</code></pre>
+                    p {
+                    font-style: italic;
+                    font-weight: bold;
+                    font-size: 10px;
+                    font-family: sans-serif;
+                    }
+                </code></pre>
                 OR
                     <pre><code class = "html">
-p {
-  font: italic bold 10px sans-serif;
-}
-</code></pre>
+                        p {
+                        font: italic bold 10px sans-serif;
+                        }
+                    </code></pre>
             </section>
 
             <!-- Connecting HTML to CSS-->
@@ -1036,8 +1038,8 @@ p {
             <section>
                 <h3>Connecting CSS to HTML: Inline</h3>
                 <pre><code class = "html">
-  &lt;p style="color:red">Some text.&lt;/p>
-</code></pre>
+                    &lt;p style="color:red">Some text.&lt;/p>
+                </code></pre>
                 <p>Uses the HTML attribute style.</p>
                 <p>Difficult to use in large projects</p>
                 <p>Not preferred.</p>
@@ -1047,15 +1049,15 @@ p {
             <section>
                 <h3>Connecting CSS to HTML: Embedded</h3>
                 <pre><code class = "html">
-&lt;head>
-  &lt;style type="text/css">
-    p {
-      color: blue;
-      font-size: 12px;
-    }
-  &lt;/style>
-&lt;/head>
-</code></pre>
+                    &lt;head>
+                    &lt;style type="text/css">
+                    p {
+                    color: blue;
+                    font-size: 12px;
+                    }
+                    &lt;/style>
+                    &lt;/head>
+                </code></pre>
                 <p>Inside &lt;head> element.</p>
                 <p>Uses &lt;style> tag.</p>
                 <p>Can only be used in one html file</p>
@@ -1065,10 +1067,10 @@ p {
             <section>
                 <h3>Connecting CSS to HTML: Linked</h3>
                 <pre><code class = "html">
-&lt;head>
-  &lt;link rel="stylesheet" type="text/css" href="style.css">
-&lt;/head>
-</code></pre>
+                    &lt;head>
+                    &lt;link rel="stylesheet" type="text/css" href="style.css">
+                    &lt;/head>
+                </code></pre>
                 <p>Shared resource for several pages.</p>
                 <p>Reduced ﬁle size &amp; bandwidth</p>
                 <p>Easy to maintain in larger projects.</p>
@@ -1091,24 +1093,24 @@ p {
                 <h3>Cascading</h3>
                 <p>Styles "cascade" down until changed</p>
                 <pre><code class = "html">
-p{
-  color:blue;
-  font-family: 'Helvetica';
-}
-.red{
-  color:red;
-}
-#special{
-  font-family: Arial;
-}
-</code></pre>
+                    p{
+                    color:blue;
+                    font-family: 'Helvetica';
+                    }
+                    .red{
+                    color:red;
+                    }
+                    #special{
+                    font-family: Arial;
+                    }
+                </code></pre>
 
                 <pre><code class = "html">
-  &lt;p>Paragraph&lt;/p>
-  &lt;p class ="green">Paragraph&lt;/p>
-  &lt;p class ="red">Paragraph&lt;/p>
-  &lt;p class = "red" id ="special">Paragraph&lt;/p>
-</code></pre>
+                    &lt;p>Paragraph&lt;/p>
+                    &lt;p class ="green">Paragraph&lt;/p>
+                    &lt;p class ="red">Paragraph&lt;/p>
+                    &lt;p class = "red" id ="special">Paragraph&lt;/p>
+                </code></pre>
             </section>
 
             <!-- Properties-->
@@ -1131,7 +1133,7 @@ p{
                 <h2>Questions?</h2>
                 <div style="font-size: 1200%; height: 100%; margin-top: 30%" class="blue">
                     ?
-            <div class="clear"></div>
+                    <div class="clear"></div>
                 </div>
             </section>
 
@@ -1139,41 +1141,41 @@ p{
         <footer>
             <div class="copyright">
                 HTML/CSS ~ Girl Develop It ~
-          <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">
-              <img alt="Creative Commons License" style="border-width: 0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">
+                    <img alt="Creative Commons License" style="border-width: 0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
             </div>
         </footer>
     </div>
-    </div>
+</div>
 
 
-    <script src="reveal/lib/js/head.min.js"></script>
-    <script src="reveal/js/reveal.min.js"></script>
+<script src="reveal/lib/js/head.min.js"></script>
+<script src="reveal/js/reveal.min.js"></script>
 
-    <script>
+<script>
 
-        // Full list of configuration options available here:
-        // https://github.com/hakimel/reveal.js#configuration
-        Reveal.initialize({
-            controls: true,
-            progress: true,
-            history: true,
+    // Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
 
-            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-            transition: 'default', // default/cube/page/concave/zoom/linear/none
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: 'default', // default/cube/page/concave/zoom/linear/none
 
-            // Optional libraries used to extend on reveal.js
-            dependencies: [
-                { src: 'reveal/lib/js/classList.js', condition: function () { return !document.body.classList; } },
-                { src: 'reveal/plugin/markdown/showdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
-                { src: 'reveal/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
-                { src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
-                { src: 'reveal/plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
-                { src: 'reveal/plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } }
-            ]
-        });
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+            { src: 'reveal/lib/js/classList.js', condition: function () { return !document.body.classList; } },
+            { src: 'reveal/plugin/markdown/showdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+            { src: 'reveal/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+            { src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+            { src: 'reveal/plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
+            { src: 'reveal/plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } }
+        ]
+    });
 
-    </script>
+</script>
 
 </body>
 </html>
