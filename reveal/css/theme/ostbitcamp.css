@@ -176,7 +176,7 @@ body {
 }
 
 .subheading1 {
-    color: #F79646;
+    color: rgb(255, 97, 99);
 }
 .subheading2 {
     color: #BCD5A9;
@@ -186,4 +186,9 @@ body {
 }
 .reveal a:not(.image) {
     color: #5F9BC1;
+}
+
+.no-border {
+    border:none !important;
+    box-shadow:none !important;
 }
