@@ -289,6 +289,24 @@
                 </div>
             </section>
 
+            <!-- How to see page source -->
+            <section>
+                <h3>Did you know...</h3>
+                <div class="left left-align" style="width: 45%;">
+                    <br/>
+                    <p>...that you can see the code of any website?</p>
+                    <br/>
+                    <p>Right click <br/>&nbsp;&nbsp;&nbsp; => "View page source"</p>
+                    <p>or</p>
+                    <p><img class="no-border" src="images/options.png" style="margin-bottom: -5px;"/>(Options) <br/>
+                        => More Tools <br/>
+                        => Developer tools</p>
+                </div>
+                <div class="right" style="width: 45%;">
+                    <img src="images/view_source.PNG"/>
+                </div>
+            </section>
+
             <!-- Roles of HTML v CSS -->
             <section>
                 <h3>Anatomy of a website</h3>
@@ -332,7 +350,7 @@
                             <pre><code class ="html">&lt;tagname>Stuff in the middle&lt;/tagname></code></pre>
                     </li>
                     <li>
-                        <pre><code class ="html">&lt;p> This is a sample paragraph.&lt;/p></code></pre>
+                        <pre><code class ="html">&lt;p>This is a sample paragraph.&lt;/p></code></pre>
                     </li>
                 </ul>
             </section>
@@ -383,7 +401,7 @@
                             <li>Values must be contained inside quotation marks.</li>
                             <li>
                                 <pre><code class ="html">&lt;div id="copyright">&copy; GDI 2013&lt;/div>
-&lt;img src="my_picture.jpg" />
+&lt;img src="my_picture.jpg"/>
 &lt;a href="http://girldevelopit.com">GDI&lt;/a>
                                 </code></pre>
                             </li>
@@ -485,7 +503,6 @@
             <section>
                 <h3>Nesting</h3>
                 <p>All elements "nest" inside one another</p>
-                <p><small>Nesting is what happens when you put other containing tags inside other containing tags. For example, you would put the &lt;p> inside of the &lt;body> tags. The &lt;p> is now nested inside the &lt;body></small></p>
                 <img style="width: 30%" src="images/owls.jpg" />
 
                 <p>Whichever element OPENS first CLOSES last</p>
@@ -569,7 +586,7 @@
                         <h6 style="font-size: 75%">Heading 6</h6>
                     </div>
                     <div class="clear"></div>
-                    <p>* Heading number indicates hierarchy, not size. Think: Outlines from high school papers</p>
+                    <p>* Heading number indicates hierarchy, not size.</p>
                 </div>
             </section>
 
@@ -592,6 +609,7 @@
                         </code></pre>
                     </div>
                     <div class="left left-align" style="width: 50%">
+                        <br/>
                         <p>
                             Here is a paragraph with <em>Emphasized</em> text and <strong>Important</strong> text.
                         </p>
@@ -599,16 +617,19 @@
                     <div class="clear"></div>
                     <br />
                     <br />
-                    <p>* Notice: em and strong are meant to indicate meaning through style. If you want to have italicized for appearance and not to communicate meaning, you should use CSS.</p>
+                    <p>* Note: These tags are meant for meaning, not style.</p>
                 </div>
             </section>
             <!--develop it!-->
             <section class="hide-pdf">
                 <h3>Let's Develop it!</h3>
                 <p class="left-align">Let's add some content to our site!</p>
-                <p class="left-align">Add one of each level of heading with 1-2 short paragraphs of text below each heading. </p>
-                <p class="left-align">Italic and bold some text within a few paragraphs.</p>
-
+                <p class="left-align">Add some...<p>
+                <ul>
+                    <li>Headings</li>
+                    <li>Paragraphs</li>
+                    <li>Italic and bold text within paragraphs</li>
+                </ul>
             </section>
 
             <!-- Links-->
@@ -663,7 +684,13 @@
             <section class="hide-pdf">
                 <h3>Let's Develop It</h3>
                 <p>Let's add links to our site!</p>
-                <p>Add links that open in the same window, a new window and link to an e-mail address.</p>
+                <br/>
+                <p>Add links that...<p>
+                <ul>
+                    <li>open in the same window</li>
+                    <li>open in a new window</li>
+                    <li>link to an email address</li>
+                </ul>
             </section>
 
             <!-- Images-->
@@ -677,9 +704,9 @@
                 </ul>
                 <pre><code>&lt;img src="images/clydesdale.jpg" alt="Horse"/></code></pre>
                 <img style="width: 30%;" src="images/clydesdale.jpg" alt="Horse" />
-                <p><small>* Notice: This tag is our first example of a stand-alone or "self-closing" element.</small></p>
 
             </section>
+
             <!-- Line Break-->
             <section>
                 <h3>Element: Line Break</h3>
@@ -762,12 +789,6 @@
                 <img style="width: 75%" src="images/example-lists.png" alt="Examples of lists" />
             </section>
 
-            <!-- Develop it!-->
-            <section class="hide-pdf">
-                <h3>Let's Develop it!</h3>
-                <p>Let's add one of each ordered and unordered lists to our page.</p>
-                <p>We can make a list of links or even a list of images!</p>
-            </section>
             <!--Comments-->
             <section>
                 <h3>Comments</h3>
@@ -859,6 +880,18 @@
                     ?
                     <div class="clear"></div>
                 </div>
+            </section>
+            <!-- Develop it!-->
+            <section class="hide-pdf">
+                <h3>Let's Develop it!</h3>
+                <p>Let's add some...</p><br/>
+                <ul>
+                    <li>Ordered and unordered lists</li>
+                    <li>Comments</li>
+                    <li>Tables</li>
+                </ul>
+                <br/><br/><br/>
+                <p>We can make a list of links, a list of images, or a table of images!</p>
             </section>
             <!-- Role of HTML v. CSS-->
             <section>
@@ -974,11 +1007,16 @@ img {
             <section>
                 <h3>IDs vs. Classes</h3>
                 <div class="left-align">
-                    <span class="subheading1">ID</span> -- Should only apply to one element on a webpage. I.E. A webpage only has one footer.
+                    <span class="subheading1">ID</span> -- Should only apply to one element on a webpage.
+                    <br/>
+                    <br/>ex. A webpage only has one footer.
                     <p>The "#" is how you tell CSS "this is an id."</p>
                 </div>
+                <br/>
                 <div class="left-align">
-                    <span class="subheading1">Class</span> -- Lots of elements can have the same class. I.E. There can be many warning on one webpage.
+                    <span class="subheading1">Class</span> -- Lots of elements can have the same class.
+                    <br/>
+                    <br/>ex. There can be many warning on one webpage.
                     <p>The "." is how you tell CSS "this is a class name."</p>
                 </div>
             </section>
@@ -1090,6 +1128,48 @@ p {
                     </code></pre>
             </section>
 
+
+            <!-- Cascading-->
+            <section>
+                <h3>Cascading</h3>
+                <p>Styles "cascade" down until changed</p>
+                <pre><code class = "html">
+p {
+    color:blue;
+    font-family: 'Helvetica';
+}
+.red {
+    color:red;
+}
+#special {
+    font-family: Arial;
+}
+                </code></pre>
+
+                <pre><code class = "html">
+&lt;p>Paragraph&lt;/p>
+&lt;p class="green">Paragraph&lt;/p>
+&lt;p class="red">Paragraph&lt;/p>
+&lt;p class="red" id="special">Paragraph&lt;/p>
+                </code></pre>
+            </section>
+
+            <!-- Properties-->
+            <section>
+                <h3>CSS Properties</h3>
+                <p>Many CSS properties have self-explanatory names:</p>
+                <ul>
+                    <li>color</li>
+                    <li>background-color</li>
+                    <li>font-size</li>
+                    <li>width</li>
+                    <li>height</li>
+                </ul>
+                <p><a href="https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference">Comprehensive list of all CSS properties:</a></p><p>https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference</p>
+                <br/>
+                <p>...or just Google it!</p>
+            </section>
+
             <!-- Connecting HTML to CSS-->
             <section>
                 <h3>Connecting CSS to HTML</h3>
@@ -1131,13 +1211,21 @@ p {
                 <h3>Connecting CSS to HTML: Linked</h3>
                 <pre><code class = "html">
 &lt;head>
-    &lt;link rel="stylesheet" type="text/css" href="style.css">
+    &lt;link rel="stylesheet" type="text/css" href="styles.css">
 &lt;/head>
                 </code></pre>
                 <p>Shared resource for several pages.</p>
                 <p>Reduced ﬁle size &amp; bandwidth</p>
                 <p>Easy to maintain in larger projects.</p>
-                <p>Preferred by nerds everywhere!</p>
+            </section>
+
+            <!-- Question-->
+            <section>
+                <h2>Questions?</h2>
+                <div style="font-size: 1200%; height: 100%; margin-top: 30%" class="blue">
+                    ?
+                    <div class="clear"></div>
+                </div>
             </section>
 
             <!-- Exercise-->
@@ -1149,55 +1237,6 @@ p {
                     <li>Add styles to change the colors, background colors or fonts of different parts of your site</li>
                     <li>Try using ids and classes to change specific elements</li>
                 </ul>
-            </section>
-
-            <!-- Cascading-->
-            <section>
-                <h3>Cascading</h3>
-                <p>Styles "cascade" down until changed</p>
-                <pre><code class = "html">
-p {
-    color:blue;
-    font-family: 'Helvetica';
-}
-.red {
-    color:red;
-}
-#special {
-    font-family: Arial;
-}
-                </code></pre>
-
-                <pre><code class = "html">
-&lt;p>Paragraph&lt;/p>
-&lt;p class ="green">Paragraph&lt;/p>
-&lt;p class ="red">Paragraph&lt;/p>
-&lt;p class = "red" id ="special">Paragraph&lt;/p>
-                </code></pre>
-            </section>
-
-            <!-- Properties-->
-            <section>
-                <h3>CSS Properties</h3>
-                <p>Many CSS properties have self-explanatory names:</p>
-                <ul>
-                    <li>background-color</li>
-                    <li>font-family</li>
-                    <li>font-size</li>
-                    <li>color</li>
-                    <li>width</li>
-                    <li>height</li>
-                </ul>
-                <p><a href="https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference">Comprehensive list of all CSS properties:</a></p><p>https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference</p>
-            </section>
-
-            <!-- Question-->
-            <section>
-                <h2>Questions?</h2>
-                <div style="font-size: 1200%; height: 100%; margin-top: 30%" class="blue">
-                    ?
-                    <div class="clear"></div>
-                </div>
             </section>
 
         </div>
