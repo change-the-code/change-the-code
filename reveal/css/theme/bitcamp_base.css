@@ -197,9 +197,21 @@ body {
   font-size: 22px;
   padding: 10px;
   background-color: #F8F8FF;
+  line-height: 130%;
+
 }
 
 li.no-bullet {
   list-style-type: none;
   margin: 0 0 0 -70px;
 }
+
+.no-space {
+  padding-top: 0 !important; padding-bottom: 0 !important; margin-top: 0 !important; margin-bottom: 0 !important;
+}
+
+.attribute {
+  color: #1A485E !important;
+}
+
+
