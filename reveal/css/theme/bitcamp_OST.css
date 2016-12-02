@@ -1,0 +1,39 @@
+
+body {
+}
+
+.container {
+}
+
+
+.reveal {
+  font-family: "Raleway Regular", "Helvetica", Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+  color: #333333;
+}
+
+/*custom*/
+#logo {
+    padding: 100px;
+    border: none;
+}
+
+.subheading1 {
+    color: #FF6163;
+}
+.subheading2 {
+    color: #BCD5A9;
+}
+.blue {
+    color: #969FA8;
+}
+.reveal a:not(.image) {
+    color: #5F9BC1;
+}
+
+.no-border {
+    border:none !important;
+    box-shadow:none !important;
+}
