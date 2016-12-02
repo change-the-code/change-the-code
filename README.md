@@ -1,6 +1,6 @@
-OSTBitcamp
+BitCamp
 ==========
 
-Files used for the OST Bitcamp training session for GitHub Pages
+Files used for the BitCamp training session for GitHub Pages
 
-http://ercunningham8.github.io/OSTBitcamp/#/
+https://rvdhooft.github.io/bitcamp/#/
