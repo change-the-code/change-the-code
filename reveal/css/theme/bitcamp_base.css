@@ -21,6 +21,10 @@ body {
   color: #333333; 
 }
 
+.reveal p, .reveal li {
+  line-height: 45px;
+}
+
 ::selection {
   color: white;
   background: rgba(11, 79, 81, 0.99);
@@ -172,14 +176,9 @@ body {
 .reveal pre code {
   font-size: 22px;
   padding: 10px;
-  background-color: #F8F8FF;
+  border: 1px solid #e0e0e4;
   line-height: 130%;
-
-}
-
-li {
-  list-style-type: none;
-  margin: 0 0 0 -70px;
+  text-align: left;
 }
 
 .left-align {
@@ -201,4 +200,7 @@ section .right {
   color: #1A485E !important;
 }
 
+.no-bullets {
+  list-style-type: none;
+}
 
