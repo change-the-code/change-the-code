@@ -97,7 +97,7 @@ ul, ol, div, p {
 	position: absolute !important;
 
 	margin: 0 !important;
-	padding: 0 !important;
+	padding: 20px !important;
 	box-sizing: border-box !important;
 	min-height: 1px;
 
@@ -175,4 +175,8 @@ ul, ol, div, p {
 	display: block;
 	position: absolute;
 	font-size: 14px;
+}
+
+.left-align p, .left-align ul, p.left-align, ul.left-align {
+	margin-left: 50px;
 }
