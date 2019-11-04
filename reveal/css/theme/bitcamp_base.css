@@ -13,17 +13,16 @@ body {
   background: #fff;
 }
 
-.container {
-  height: 100%;
-}
-
-
 .reveal {
   font-family: "Gotham-Book", "Helvetica", Arial, sans-serif;
   font-size: 36px;
   font-weight: 200;
   letter-spacing: -0.02em;
   color: #333333; 
+}
+
+.reveal p, .reveal li {
+  line-height: 45px;
 }
 
 ::selection {
@@ -84,7 +83,10 @@ body {
   -moz-transition: all .2s linear;
   -ms-transition: all .2s linear;
   -o-transition: all .2s linear;
-  transition: all .2s linear; }
+  transition: all .2s linear;
+  max-width: 100%;
+  max-height: 100%;
+}
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
@@ -174,14 +176,20 @@ body {
 .reveal pre code {
   font-size: 22px;
   padding: 10px;
-  background-color: #F8F8FF;
+  border: 1px solid #e0e0e4;
   line-height: 130%;
-
+  text-align: left;
 }
 
-li.no-bullet {
-  list-style-type: none;
-  margin: 0 0 0 -70px;
+.left-align {
+  text-align: left;
+}
+
+section .left {
+  float: left;
+}
+section .right {
+  float: right;
 }
 
 .no-space {
@@ -192,4 +200,7 @@ li.no-bullet {
   color: #1A485E !important;
 }
 
+.no-bullets {
+  list-style-type: none;
+}
 
