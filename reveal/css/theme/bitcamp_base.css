@@ -40,7 +40,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 30px 0;
-  color: #1A485E;
+  color: #009191;
   font-family: "Gotham-Bold", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
@@ -151,7 +151,7 @@ body {
 }
 
 .subheading1 {
-    color: rgb(255, 97, 99);
+    color: #3dd9b0;
 }
 .subheading2 {
     color: #BCD5A9;
@@ -197,7 +197,7 @@ section .right {
 }
 
 .attribute {
-  color: #1A485E !important;
+  color: #009191 !important;
 }
 
 .no-bullets {

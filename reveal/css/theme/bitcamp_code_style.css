@@ -29,7 +29,7 @@ Based on Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru
 .hljs-variable,
 .hljs-template-variable,
 .hljs-attribute {
-    color: rgb(255, 97, 99);
+    color: #3dd9b0;
 }
 
 .hljs-literal {
@@ -46,7 +46,7 @@ Based on Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru
 .hljs-selector-class,
 .hljs-section,
 .hljs-type {
-    color: rgb(255, 97, 99);
+    color: #3dd9b0;
 }
 
 .hljs-symbol,
