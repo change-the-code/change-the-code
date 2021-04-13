@@ -1,1 +1,1 @@
-Change the Code HTML/CSS Curriculum: https://infernobunn.github.io/Change-the-Code/
+Change the Code HTML/CSS Curriculum: https://change-the-code.github.io/change-the-code/
